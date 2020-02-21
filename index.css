@@ -68,7 +68,7 @@ nav img {
 
 /* Jumbotron */
 .jumbotron {
-  height: 80vh;
+  height: 60vh;
   position: relative;
   background-image: url(./images/sunset.jpg);
   background-position: top;
