@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <meta
+      name="description"
+      content="Skillset test for Gray Digital Group made February 2020."
+    />
+    <meta name="author" content="Summer Rollison" />
     <link
-      href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Lato:400,600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./index.css" />
-    <title>Summer Rollison | Mockup</title>
+    <title>Summer Rollison Mockup</title>
   </head>
 
   <body>
@@ -109,7 +115,7 @@
       <section class="contact">
         <div class="w-80">
           <h2>Contact Us</h2>
-          <form>
+          <form role="form" aria-label="Contact Us">
             <div class="form-inputs">
               <input type="text" name="firstName" placeholder="First Name" />
               <input type="text" name="lastName" placeholder="Last Name" />
@@ -127,13 +133,15 @@
                 >
               </select>
             </div>
-            <label class="checkbox-label">
-              <input type="checkbox" />
-              <div class="checkbox-custom"></div>
-              <span class="checkbox-custom-text"
-                >Sign up for our Newsletter</span
-              >
-            </label>
+            <div class="checkbox-wrapper">
+              <label class="checkbox-label" for="sign-up">
+                <input type="checkbox" name="sign-up" id="sign-up" />
+                <div class="checkbox-custom"></div>
+                <span class="checkbox-custom-text"
+                  >Sign up for our Newsletter</span
+                >
+              </label>
+            </div>
             <button type="submit">Submit</button>
           </form>
         </div>

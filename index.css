@@ -56,7 +56,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -219,6 +219,7 @@ form {
 .form-inputs {
   margin-bottom: 20px;
   position: relative;
+  overflow: auto;
 }
 
 .form-inputs input,
@@ -264,7 +265,6 @@ button:hover {
 }
 
 /* Custom Checkbox */
-
 .checkbox-label input {
   opacity: 0;
   position: absolute;
@@ -343,7 +343,7 @@ footer {
   position: relative;
 }
 
-/* Tablet */
+/* Tablet Screen Size */
 @media screen and (min-width: 690px) {
   nav {
     height: 75px;
@@ -367,8 +367,4 @@ footer {
     margin-right: 0;
     margin-bottom: 70px;
   }
-}
-
-/* Desktop */
-@media screen and (min-width: 1024px) {
 }
