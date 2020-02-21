@@ -104,7 +104,7 @@ nav img {
 }
 
 .slide-text {
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .fade {
@@ -374,6 +374,10 @@ footer {
 
   .title-line {
     padding: 0 15px 35px 15px;
+  }
+
+  .slide-text {
+    margin-bottom: 35px;
   }
 
   .callout-card {
