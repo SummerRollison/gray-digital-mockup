@@ -24,7 +24,7 @@ h2 {
 
 h3 {
   font-weight: 400;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 /* Navigation */
@@ -95,11 +95,11 @@ nav img {
 }
 
 .jumbotron-arrow.left {
-  left: -80px;
+  left: -60px;
 }
 
 .jumbotron-arrow.right {
-  right: -80px;
+  right: -60px;
 }
 
 .slide-text {
@@ -113,11 +113,11 @@ nav img {
   animation-duration: 1.5s;
 }
 
-/*  Slider border styling */
+/*  Jumbotron content border styling */
 .title-line {
   position: relative;
   display: inline-block;
-  padding: 0 15px 35px 15px;
+  padding: 0 15px;
 }
 
 .title-line-text::before,
@@ -142,6 +142,7 @@ nav img {
 hr {
   border: 0.5px solid white;
   box-shadow: 2px 2px 4px #343434;
+  margin: 0;
 }
 
 /* About section */
@@ -345,6 +346,9 @@ footer {
 
 /* Tablet Screen Size */
 @media screen and (min-width: 690px) {
+  h3 {
+    font-size: 2em;
+  }
   nav {
     height: 75px;
     padding-left: 10%;
@@ -356,6 +360,18 @@ footer {
 
   nav ul {
     float: right;
+  }
+
+  .jumbotron-arrow.left {
+    left: -80px;
+  }
+
+  .jumbotron-arrow.right {
+    right: -80px;
+  }
+
+  .title-line {
+    padding: 0 15px 35px 15px;
   }
 
   .callout-card {
