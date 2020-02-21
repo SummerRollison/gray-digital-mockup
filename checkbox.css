@@ -1,0 +1,36 @@
+.checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-label .checkbox-custom {
+  position: absolute;
+  left: 0px;
+  height: 33px;
+  width: 33px;
+  background-image: url("./images/checkbox-box.png");
+}
+
+.checkbox-label .checkbox-custom::after {
+  position: absolute;
+  opacity: 1;
+}
+
+.checkbox-label input:checked ~ .checkbox-custom {
+  opacity: 1;
+  background-image: url("./images/check-solid-checked.png");
+  height: 35px;
+  width: 40px;
+}
+
+.checkbox-label input:checked ~ .checkbox-custom::after {
+  opacity: 1;
+  width: 6px;
+  height: 12px;
+  background-color: transparent;
+}
+
+.checkbox-label {
+  margin-left: 40px;
+}

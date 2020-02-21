@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Summer Rollison | Mockup</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="/"><img src="./images/logo.png" alt="logo"/></a>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="jumbotron">
+        <div class="jumbotron-container is-centered">
+          <div class="jumbotron-content">
+            <div class="jumbotron-text is-overflow-hidden">
+              <span class="title-line">
+                <span class="title-line-text">I would like for this</span>
+              </span>
+            </div>
+            <div class="jumbotron-text slide-text">
+              <h3>Text to be selectable and rotate between three slides</h3>
+            </div>
+            <div class="jumbotron-text slide-text">
+              <h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              </h3>
+            </div>
+            <div class="jumbotron-text slide-text">
+              <h3>tempor incididunt ut labore et dolore magna aliqua</h3>
+            </div>
+            <hr />
+            <span
+              class="jumbotron-arrow left"
+              id="left-arrow"
+              onclick="plusSlides(-1)"
+              ><img src="./images/left-arrow.png" alt="left arrow"
+            /></span>
+            <span
+              class="jumbotron-arrow right"
+              id="right-arrow"
+              onclick="plusSlides(1)"
+              ><img src="./images/right-arrow.png" alt="right arrow"
+            /></span>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about-content w-80">
+          <h1>Use an h1 head here</h1>
+          <p>
+            This should be a paragraph. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure.
+          </p>
+        </div>
+      </section>
+      <section class="callout w-80">
+        <div class="callout-card">
+          <img
+            src="./images/box-1"
+            alt="View of a valley with moutains and a blue sky in the background"
+          />
+          <div class="callout-card-text">
+            <h3>List a Skill Here</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="callout-card">
+          <img
+            src="./images/box-2"
+            alt="Mountain side covered in dark clouds"
+          />
+          <div class="callout-card-text">
+            <h3>List a Skill Here</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="callout-card">
+          <img src="./images/box-3" alt="Shadow covered sand dunes" />
+          <div class="callout-card-text">
+            <h3>List a Skill Here</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="w-80">
+          <h2>Contact Us</h2>
+          <form>
+            <div class="form-inputs">
+              <input type="text" name="firstName" placeholder="First Name" />
+              <input type="text" name="lastName" placeholder="Last Name" />
+              <input type="text" name="email" placeholder="Email Address" />
+              <select name="state">
+                <option value="" disabled selected>State</option>
+                <option value="state">Alabama</option>
+                <option value="state">Alaska</option>
+                <option value="state">Arizona</option>
+                <option value="state">Arkansas</option>
+                <option value="state">California</option>
+                <option value="state">Colorado</option>
+                <option value="state"
+                  >No one needs me to keep listing these</option
+                >
+              </select>
+            </div>
+            <label class="checkbox-label">
+              <input type="checkbox" />
+              <div class="checkbox-custom"></div>
+              <span class="checkbox-custom-text"
+                >Sign up for our Newsletter</span
+              >
+            </label>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; bussinessname.com, Inc. All rights reserved.</p>
+    </footer>
+
+    <script src="./slider.js"></script>
+  </body>
+</html>
